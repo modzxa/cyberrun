@@ -37,7 +37,7 @@ The application is configured using environment variables:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/praveenkarunarathne/Google-Cloud-Run-Proxy.git
+    git clone https://github.com/mtkgenuine2026/Google-Cloud-Run-Proxy.git
     cd Google-Cloud-Run-Proxy
     ```
 
@@ -60,7 +60,7 @@ You can use the pre-built public image:
 docker run -p 8080:8080 \
   -e PORT=8080 \
   -e V2RAY_SERVER_IP=1.2.3.4 \
-  docker.io/praveenkarunarathne/google-cloud-run-proxy
+  docker.io/mtkgenuine2026/google-cloud-run-proxy
 ```
 
 Alternatively, to build from source:
@@ -81,7 +81,7 @@ Deploy directly using the public image:
 
 ```bash
 gcloud run deploy cloud-run-proxy \
-  --image docker.io/praveenkarunarathne/google-cloud-run-proxy \
+  --image docker.io/mtkgenuine2026/google-cloud-run-proxy \
   --platform managed \
   --region us-central1 \
   --allow-unauthenticated \
